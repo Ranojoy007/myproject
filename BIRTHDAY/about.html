@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>  
+    <!-- Background -->
+    <div class="stars"></div>
+    <div class="hearts"></div>
+    <!-- Music -->
+    <audio id="music" preload="auto" loop>
+    <source src="./views/ezyZip.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+<button id="musicBtn" class="music-btn">🎵</button>
+    <!-- INTRO -->
+    <section class="intro" id="intro">
+      <div class="intro-content">
+        <p class="small-text">I made something special for you...</p>
+        <h1>Hey, Beautiful <span>❤️</span></h1>
+        <p class="intro-subtitle">
+          Before you continue... promise me you'll smile.
+        </p>
+        <button class="start-btn" id="startBtn">
+          Open Your Surprise <span>→</span>
+        </button>
+      </div>
+    </section>
+    <!-- MAIN WEBSITE -->
+    <main id="mainContent" class="hidden">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <p class="eyebrow">✦ TODAY IS YOUR DAY ✦</p>
+          <h1>
+           <br> Happy Birthday <br />
+            <span>My Love</span>
+          </h1>
+          <p class="hero-text">
+            To the girl who makes ordinary days feel extraordinary.
+          </p>
+          <div class="scroll">↓ <span>Scroll slowly</span></div>
+        </div>
+      </section>
+      <!-- PHOTO -->
+      <section class="photo-section">
+        <p class="section-label">THE BEAUTIFUL YOU</p>
+        <h2>A face I'll never get tired of seeing.</h2>
+        <div class="photo-wrapper">
+          <div class="photo-glow"></div>
+          <div class="photo-frame">
+            <img src="./views/WhatsApp Image 2026-10-02 at 11.58.28 PM.jpeg" alt="My beautiful girl" />
+          </div>
+          <div class="photo-heart">❤️</div>
+        </div>
+      </section>
+      <!-- MESSAGE -->
+      <section class="message-section">
+        <div class="message-card">
+          <span class="quote"> “ </span>
+          <p class="section-label">A LITTLE MESSAGE FOR YOU</p>
+          <h2>Let me tell you something...</h2>
+          <p id="typewriter" class="letter"></p>
+        </div>
+      </section>
+      <!-- REASONS -->
+      <section class="reasons">
+        <p class="section-label">WHY YOU ARE SPECIAL</p>
+        <h2>Three little things...out of millions</h2>
+        <div class="reason-container">
+          <div class="reason">
+            <div class="reason-icon">✨</div>
+            <h3>Your Smile</h3>
+            <p>Somehow your smile can make even my worst day better.</p>
+          </div>
+          <div class="reason">
+            <div class="reason-icon">🌹</div>
+            <h3>Your Heart</h3>
+            <p>
+              Your kindness and the way you care make you incredibly special.
+            </p>
+          </div>
+          <div class="reason">
+            <div class="reason-icon">❤️</div>
+            <h3>Just You</h3>
+            <p>Honestly, I don't need a reason. You're simply you.</p>
+          </div>
+        </div>
+      </section>
+      <!-- SPECIAL BUTTON -->
+      <section class="surprise-section">
+        <p class="section-label">ONE LAST THING</p>
+        <h2>Are you ready?</h2>
+        <button id="loveBtn" class="love-btn">Open My Heart ❤️</button>
+      </section>
+      <!-- FINAL SURPRISE -->
+      <section id="finalMessage" class="final hidden">
+        <div class="fireworks"></div>
+        <div class="final-content">
+          <div class="big-heart">❤️</div>
+          <p class="section-label">THIS IS FOR YOU</p>
+          <h1>You are my <span>favorite person.</span></h1>
+          <p>
+            No matter how many birthdays come and go, I hope I get to see your
+            smile on every one of them.
+          </p>
+          <p>I hope life gives you everything you've ever wished for.</p>
+          <div class="love-text">
+            Lot's of love to my dream that will never see the light of day...❤️
+          </div>
+          <p class="signature">— Always yours</p>
+        </div>
+      </section>
+      <footer>Made with ❤️ just for you</footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
